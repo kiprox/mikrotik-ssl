@@ -1,7 +1,7 @@
 # Let's Encrypt RouterOS / Mikrotik
 **Let's Encrypt certificates for RouterOS / Mikrotik**
 
-*UPD 2018-05-27: Works with wildcard Let's Encrypt Domains*
+*Update 2020-11-16: Works with wildcard Let's Encrypt Domains*
 
 [![Mikrotik](https://i.mt.lv/mtv2/logo.svg)](https://mikrotik.com/)
 
@@ -17,7 +17,7 @@
 * Change **SSTP Server Settings** to use new certificate
 * Delete certificate and key files form RouterOS / Mikrotik storage
 
-### Installation on Ubuntu 16.04
+### Installation on Ubuntu 18.04
 *Similar way you can use on Debian/CentOS/AMI Linux/Arch/Others*
 
 Download the repo to your system
@@ -74,7 +74,7 @@ scp -P $ROUTEROS_SSH_PORT /opt/letsencrypt-routeros/id_dsa.pub "$ROUTEROS_USER"@
 ### CertBot Let's Encrypt
 Install CertBot using official manuals https://certbot.eff.org/#ubuntuxenial-other
 
-*for Ubuntu 16.04*
+*for Ubuntu 18.04*
 ```sh
 apt update
 apt install software-properties-common -y
@@ -119,7 +119,7 @@ $routeros /ip service set api-ssl certificate=$DOMAIN.pem_0
 ```
 ---
 ### Licence MIT
-Copyright 2018 Konstantin Gimpel
+Copyright 2020 Tulungagung Network (TANET)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
