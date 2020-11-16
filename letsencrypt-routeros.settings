@@ -1,5 +1,5 @@
 #!/bin/bash
-## Settings file for RouterOS Let's Encrypt Script
+## Settings file for RouterOS Let's Encrypt SSL Script
 ## Please avoid space
 
 ROUTEROS_USER=admin
