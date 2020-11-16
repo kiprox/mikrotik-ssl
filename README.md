@@ -17,7 +17,7 @@
 * Change **SSTP Server Settings** to use new certificate
 * Delete certificate and key files form RouterOS / Mikrotik storage
 
-### Installation on Ubuntu 18.04
+### Installation on Ubuntu 20.04
 *Similar way you can use on Debian/CentOS/AMI Linux/Arch/Others*
 
 Download the repo to your system
@@ -72,9 +72,9 @@ scp -P $ROUTEROS_SSH_PORT /opt/mikrotik-ssl/id_dsa.pub "$ROUTEROS_USER"@"$ROUTER
 ```
 
 ### CertBot Let's Encrypt
-Install CertBot using official manuals https://certbot.eff.org/#ubuntuxenial-other
+Install CertBot using official manuals https://certbot.eff.org/#ubuntufocal-other
 
-*for Ubuntu 18.04*
+*for Ubuntu 20.04*
 ```sh
 apt update
 apt install software-properties-common -y
