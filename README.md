@@ -3,7 +3,7 @@
 
 *Update 2020-11-16: Works with wildcard Let's Encrypt Domains*
 
-[![Mikrotik](https://i.mt.lv/mtv2/logo.svg)](https://mikrotik.com/)
+[![Mikrotik](https://i.mt.lv/img/mt/v2/d_reseller.svg)](https://mikrotik.com/)
 
 
 ### How it works:
