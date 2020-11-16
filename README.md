@@ -1,4 +1,4 @@
-# Let's Encrypt RouterOS / Mikrotik
+# SSL For RouterOS / Mikrotik / Cloud Hosted Router
 **Let's Encrypt certificates for RouterOS / Mikrotik**
 
 *Update 2020-11-16: Works with wildcard Let's Encrypt Domains*
@@ -35,7 +35,7 @@ vim /opt/mikrotik-ssl/letsencrypt-routeros.settings
 | ROUTEROS_USER | admin | user with admin rights to connect to RouterOS |
 | ROUTEROS_HOST | 10.0.254.254 | RouterOS\Mikrotik IP |
 | ROUTEROS_SSH_PORT | 22 | RouterOS\Mikrotik PORT |
-| ROUTEROS_PRIVATE_KEY | /opt/mikrotik-ssl/id_dsa | Private Key to connecto to RouterOS |
+| ROUTEROS_PRIVATE_KEY | /opt/mikrotik-ssl/id_dsa | Private Key to connect to RouterOS |
 | DOMAIN | mydomain.com | Use main domain for wildcard certificate or subdomain for subdomain certificate |
 
 
@@ -119,7 +119,7 @@ $routeros /ip service set api-ssl certificate=$DOMAIN.pem_0
 ```
 ---
 ### Licence MIT
-Copyright 2020 *Tulungagung Network (TANET)*
+Copyright 2020 **Tulungagung Network (TANET)**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
