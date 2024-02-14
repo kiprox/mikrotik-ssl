@@ -60,6 +60,8 @@ scp -P $ROUTEROS_SSH_PORT /opt/mikrotik-ssl/id_dsa.pub "$ROUTEROS_USER"@"$ROUTER
 ### Setup RouterOS / Mikrotik side
 *Check that user is the same as in the settings file letsencrypt-routeros.settings*
 
+*The user's group must have the following policies enable : read,write,ssh,ftp (scp)*
+
 *Check Mikrotik ssh port in /ip services ssh*
 
 *Check Mikrotik firewall to accept on SSH port*
